@@ -4,7 +4,7 @@ author: "Marco Chiapello, PhD"
 institute: "Liceo Scientifico A. Einstein"
 date: today
 title-slide-attributes: # this is if you want a background image on the title screen. Use the right path to the image you want
-  data-background-image: "img/dna-1811955_1280.jpg"
+  data-background-image: "images/dna-1811955_1280.jpg"
   data-background-opacity: "0.3"
 format:
   marco1-revealjs:
@@ -21,27 +21,24 @@ options(tidyverse.quiet=TRUE)
 library(tidyverse)
 ```
 
-## Feedback 
+## Feedback
 
-::::{.columns}
-
-:::{.column width="45%"}
+::: columns
+::: {.column width="45%"}
 Left
 :::
 
-:::{.column width="10%"}
+::: {.column width="10%"}
 :::
 
-:::{.column width="45%"}
+::: {.column width="45%"}
 Right
 
-![](https://nopapaye.files.wordpress.com/2015/10/pippo-1.png?w=470){fig-align="center" width="215"}
+![This is pippo](https://nopapaye.files.wordpress.com/2015/10/pippo-1.png?w=470){#fig-elephant fig-align="left" width="215"}
+:::
 :::
 
-::::
-
-
-## [Background]{style="color: white;"} {background-image="img/dna2.jpg" background-size="cover" background-opacity="0.3}"}
+## [Background]{style="color: white;"} {background-image="images/dna-1811955_1280.jpg" background-size="cover" background-opacity="0.3}"}
 
 ::: {.p-img-center .r-stretch}
 ```{r}
@@ -50,3 +47,7 @@ Right
 plot(qrcode::qr_code("${1:https://m.canouil.dev/quarto-revealjs-coeos/#/title-slide}"))
 ```
 :::
+
+## Ciao
+
+@fig-elephant

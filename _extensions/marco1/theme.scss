@@ -277,6 +277,10 @@ $slide-height: calc(var(--slide-height) + #{$border-updown-width} * 2);
             
 }
 
+.reveal .slide figure > figcaption, .reveal .slide img.stretch + p.caption, .reveal .slide img.r-stretch + p.caption {
+  font-size: 0.3em !important;
+}
+
 section.has-light-background {
 
   &,
