@@ -1,0 +1,52 @@
+---
+title: "DNA the molecule of life"
+author: "Marco Chiapello, PhD"
+institute: "Liceo Scientifico A. Einstein"
+date: today
+title-slide-attributes: # this is if you want a background image on the title screen. Use the right path to the image you want
+  data-background-image: "img/dna-1811955_1280.jpg"
+  data-background-opacity: "0.3"
+format:
+  marco1-revealjs:
+    echo: true
+    highlight-style: github
+    slide-number: c/t
+    width: 1600
+    height: 900
+---
+
+```{r}
+#| echo: false
+options(tidyverse.quiet=TRUE)
+library(tidyverse)
+```
+
+## Feedback 
+
+::::{.columns}
+
+:::{.column width="45%"}
+Left
+:::
+
+:::{.column width="10%"}
+:::
+
+:::{.column width="45%"}
+Right
+
+![](https://nopapaye.files.wordpress.com/2015/10/pippo-1.png?w=470){fig-align="center" width="215"}
+:::
+
+::::
+
+
+## [Background]{style="color: white;"} {background-image="img/dna2.jpg" background-size="cover" background-opacity="0.3}"}
+
+::: {.p-img-center .r-stretch}
+```{r}
+#| echo: false
+#| layout-ncol: 1
+plot(qrcode::qr_code("${1:https://m.canouil.dev/quarto-revealjs-coeos/#/title-slide}"))
+```
+:::

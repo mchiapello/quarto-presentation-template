@@ -1,0 +1,11 @@
+# About
+
+::: {layout="[0.38, -0.02, 0.60]" layout-valign="center"}
+<img src="img/MarcoChiapello.jpg" class="picture"/>
+
+-   [{{< iconify fa6-solid envelope >}}
+chiapello.m@gmail.com](mailto:chiapello.m@gmail.com){style="text-decoration: none;"}
+-   [{{< iconify fa6-brands linkedin >}} Marco Chiapello](https://www.linkedin.com/in/marco-chiapello-20b58750/){style="text-decoration: none;"}
+-   [{{< iconify fa6-brands github >}} \@mchiapello](https://github.com/mchiapello/){style="text-decoration: none;"}
+
+:::
